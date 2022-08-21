@@ -1,1 +1,46 @@
 
+body
+{
+font-size:16px;
+}
+h1{
+font-weight: 700;
+font: size 3.052em;
+word-spacing: .5em;
+text-align:center;
+text-transform:uppercase;
+}
+h2{
+    font-weight:500;
+    font-size: 2.441em;
+    word-spacing: .2em;
+    padding-top: 15px;
+    text-align:left;
+}
+address{
+    font-family:'Quattrocento',Georgia,"times new Roman" serif;
+    text-align: center;
+}
+intro{
+    text-indent:.2em;
+}
+sentence{
+    font-style:italic;
+}
+a:link{
+    font-size:1.25em;
+    color:#4F3674;
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+a:visited{
+FONT-STYLE:ITALIC;
+}
+p
+{
+line-height: 1.4em;
+}
