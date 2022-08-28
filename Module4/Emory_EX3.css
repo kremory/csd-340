@@ -18,6 +18,7 @@ olists{
     border-style: solid;
     padding:10px;
     list-style-type: upper-roman;
+    border: 1px;
 }
 ulists{
     font-weight: 300;
@@ -25,6 +26,7 @@ ulists{
     border-radius: 15px;
     border-style: solid;
     padding: 10px;
+    border: 1px;
 }
 a:hover{
     text-decoration: underline;
