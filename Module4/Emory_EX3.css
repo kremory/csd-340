@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-family: 'Oswald','Verdana',Arial,sans-serif
+}
+h3{
+    font-weight: 500;
+}
+leftdiv{
+    font-family: 'Oswald','Verdana',Arial,sans-serif
+}
+rightdiv{
+    font-family: 'Oswald','Verdana',Arial,sans-serif
+}
+olists{
+    font-weight: 300;
+    border-color: red;
+    border-radius: 15px;
+    border-style: solid;
+    padding:10px;
+    list-style-type: upper-roman;
+}
+ulists{
+    font-weight: 300;
+    border-color: red; 
+    border-radius: 15px;
+    border-style: solid;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+bots{
+    float: right;
+    margin-bottom: 20px;
+}
