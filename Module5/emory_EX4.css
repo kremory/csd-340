@@ -5,8 +5,10 @@ h1{
 }
 .image-gallery{
     margin-top: 10%;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 16px 16px 16px;
+    border: 1px black;
 }
 h3{
     text-align:center;
