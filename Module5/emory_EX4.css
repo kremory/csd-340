@@ -6,7 +6,9 @@ h1{
 .image-gallery{
     margin-top: 10%;
     display:grid;
-    gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+
 }
 h3{
     text-align:center;
