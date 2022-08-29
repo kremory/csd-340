@@ -4,17 +4,16 @@ h1{
     font-family: 'Oswald';
 }
 .image-gallery{
-    justify-content:center;
     margin-top: 10%;
     display:grid;
-    grid-gap:1rem;
-    padding:10px;
-    grid-template-areas: "item item item"
+    grid-template-areas: auto auto auto;
 
 }
 .item{
     width:300px;
     height:300px;
+    text-align:center;
+    justify-content: center;
 }
 h3{
     text-align:center;
@@ -36,11 +35,4 @@ figure{
 }
 figcaption{
     font-size:.75em;
-}
-@media screen and(max-width: 720px){
-    .image-gallery{
-        grid-template-areas: ". item1 item1 item2 item2  ."
-                             ". item3 item3 .  .";
-    }
-    
 }
