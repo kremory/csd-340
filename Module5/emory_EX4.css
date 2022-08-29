@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 h1{
     text-align: center;
     font-weight: 400;
@@ -5,9 +8,6 @@ h1{
 }
 .image-gallery{
     display: grid;
-    grid-template-columns: repeat(3);
-    grid-column-gap: 25px;
-    grid-row-gap: 25px; 
 
 }
 h3{
@@ -27,9 +27,9 @@ figcaption{
     float: left;
     width: 33.33%;
     padding: 5px;
+    border-color: black;
+    border-width: 1px;
   }
-  
-  /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
