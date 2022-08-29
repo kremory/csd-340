@@ -32,7 +32,8 @@ figcaption{
 }
 @media screen and(max-width: 720px){
     .image-gallery{
-        grid-template-areas: ".item item item  .";
+        grid-template-areas: ". item item item  ."
+                             ". item item .  .";
     }
     
 }
