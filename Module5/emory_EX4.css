@@ -5,7 +5,7 @@ h1{
 }
 .image-gallery{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1fr, 3);
     grid-column-gap: 25px;
     grid-row-gap: 25px;
     width:100%;
