@@ -4,12 +4,10 @@ h1{
     font-family: 'Oswald';
 }
 .image-gallery{
-    flex:33%;
-    float:left;
+    justify-content:center;
     margin-top: 10%;
     display:grid;
     grid-gap:1rem;
-    grid-template-columns: auto auto auto;
     padding:10px;
     grid-template-areas: "item item item"
 
