@@ -4,6 +4,8 @@ h1{
     font-family: 'Oswald';
 }
 .image-gallery{
+    flex:33%;
+    float:left;
     margin-top: 10%;
     display:grid;
     grid-template-columns: auto auto auto;
