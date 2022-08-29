@@ -4,9 +4,11 @@ h1{
     font-family: 'Oswald';
 }
 .image-gallery{
-    margin-top: 10%;
-    display:grid;
-    grid-template-areas: auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    width:100%;
 
 }
 .item{
@@ -35,4 +37,5 @@ figure{
 }
 figcaption{
     font-size:.75em;
+    font-style: italic;
 }
