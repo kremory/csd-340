@@ -16,3 +16,9 @@ h3{
     font-family: 'Oswald';
     
 }
+figure{
+    text-align:center;
+}
+figcaption{
+    font-size:.75em;
+}
