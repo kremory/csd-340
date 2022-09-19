@@ -35,3 +35,7 @@ figcaption{
     clear: both;
     display: table;
   }
+  img{
+    width:400px;
+    height:350;
+  }
