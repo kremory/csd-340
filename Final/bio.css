@@ -71,3 +71,9 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
+#hobbies, #experience {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
